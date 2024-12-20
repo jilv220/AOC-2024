@@ -1,0 +1,24 @@
+{
+  "name": "aoc-2024",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/bun": "latest",
+    "@types/node": "^22.10.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.70.3",
+    "@effect/platform-bun": "^0.50.3",
+    "effect": "^3.11.2",
+    "lomeda": "^0.1.0",
+    "neverthrow": "^8.1.1",
+    "remeda": "^2.17.4"
+  }
+}
